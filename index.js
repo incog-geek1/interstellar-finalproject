@@ -1,4 +1,4 @@
-import express from 'express'
+import express from './express'
 import basicAuth from './express-basic-auth'
 import http from 'node:http'
 import { createBareServer } from './@tomphttp/bare-server-node'
