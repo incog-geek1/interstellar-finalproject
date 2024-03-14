@@ -5,7 +5,7 @@ import http from 'node:http'
 import path from 'node:path'
 
 import config from './config.js'
-const __dirname = process.cwd()
+
 const server = http.createServer()
 const app = express(server)
 const bareServer = createBareServer('/v/')
