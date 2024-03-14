@@ -3,7 +3,7 @@
 import http from 'node:http'
 
 import path from 'node:path'
-import cors from './cors'
+
 import config from './config.js'
 const __dirname = process.cwd()
 const server = http.createServer()
